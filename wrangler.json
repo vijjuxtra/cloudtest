@@ -1,0 +1,27 @@
+{
+  "name": "agentworker",
+  "main": "src/index.js",
+  "compatibility_date": "2024-11-01",
+
+  "ai": {
+    "binding": "AI"
+  },
+
+  "kv_namespaces": [
+    {
+      "binding": "CHAT_KV",
+      "id": "REPLACE_WITH_YOUR_KV_ID"
+    }
+  ],
+
+  "r2_buckets": [
+    {
+      "binding": "AGENT_BUCKET",
+      "bucket_name": "agentworker-data"
+    }
+  ],
+
+  "triggers": {
+    "crons": ["0 9 * * *"]
+  }
+}
