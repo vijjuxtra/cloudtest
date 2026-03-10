@@ -1,0 +1,21 @@
+{
+  "name": "agentworker",
+  "version": "1.0.0",
+  "private": true,
+  "scripts": {
+    "deploy": "wrangler deploy",
+    "dev": "wrangler dev"
+  },
+  "devDependencies": {
+    "wrangler": "^3.0.0"
+  }
+}
+```
+
+---
+
+**File 2 — `.github/workflows/deploy.yml`**
+
+When creating this file, type the full path in the filename box:
+```
+.github/workflows/deploy.yml
