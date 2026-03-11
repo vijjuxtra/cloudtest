@@ -16,7 +16,7 @@
 "r2_buckets": [
     {
       "binding": "AGENT_BUCKET",
-      "bucket_name": "Agent-data"
+      "bucket_name": "agent-data"
     }
   ],
 
