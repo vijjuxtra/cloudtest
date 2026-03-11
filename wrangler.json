@@ -13,13 +13,12 @@
       "id": "fbff51cbe66c4829bb6a0a31b1e50e67"
     }
   ],
-
-  "r2_buckets": [
+"r2_buckets": [
     {
       "binding": "AGENT_BUCKET",
-      "bucket_name": "good-agent-vlt-data"
+      "bucket_name": "Agent-data"
     }
-  ]
+  ],
 
   "triggers": {
     "crons": ["0 9 * * *"]
