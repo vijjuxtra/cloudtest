@@ -1,7 +1,9 @@
 {
   "name": "good-agent-vlt",
+  "account_id": "a69d977397dd3cbdfa3497b237ebf0fb",
   "main": "src/index.js",
-  "compatibility_date": "2024-11-01",
+  ...
+}
 
   "ai": {
     "binding": "AI"
