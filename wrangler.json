@@ -1,9 +1,7 @@
 {
   "name": "good-agent-vlt",
-  "account_id": "a69d977397dd3cbdfa3497b237ebf0fb",
   "main": "src/index.js",
-  
-}
+  "compatibility_date": "2024-11-01",
 
   "ai": {
     "binding": "AI"
@@ -12,10 +10,11 @@
   "kv_namespaces": [
     {
       "binding": "CHAT_KV",
-      "id": "fbff51cbe66c4829bb6a0a31b1e50e67"
+      "id": "your_real_kv_id_here"
     }
   ],
-"r2_buckets": [
+
+  "r2_buckets": [
     {
       "binding": "AGENT_BUCKET",
       "bucket_name": "agent-data"
@@ -25,3 +24,4 @@
   "triggers": {
     "crons": ["0 9 * * *"]
   }
+}
